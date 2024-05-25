@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+body{
+    background-color: #b19f3b;
+    width:100%;
+}
+
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: #fff;
+}
+
+.header h1:hover{
+    color: #3b8491fb;
+    cursor: pointer;
+}
+
+.header{
+    background-color: #b13b3b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.header .nav_links{
+    list-style: none;
+}
+
+.header .nav_links li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.header .nav_links li:hover{
+    transform: scale(1.1);
+}
+
+.header .nav_links a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 700;
+    color: #fff;
+    text-decoration: none;
+}
+
+.header .nav_links li a:hover{
+    color: #fff;
+    background-color: #000000fb;
+    border-radius: 32px;
+    transform: scale(1.2);
+}

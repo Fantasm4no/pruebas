@@ -1,0 +1,17 @@
+<div class="texto-escalado">
+    <h2>Registro de usuario</h2>
+</div>
+    <form [formGroup]="formReg" (ngSubmit)="onSubmit()">
+    <div class="mb-3">
+        <label class="form-label">Email</label><br><br>
+        <input type="text" class="form-control" formControlName="email">
+    </div>
+    <br><br>
+    <div class="mb-3">
+        <label class="form-label">Password</label><br><br>
+        <input type="password" class="form-control" formControlName="password">
+    </div>
+    <br><br>
+    <input type="submit" value="Enviar" class="btn-enviar">
+    <button class="btn-google">Google</button>
+</form>

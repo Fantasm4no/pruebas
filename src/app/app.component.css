@@ -1,0 +1,21 @@
+.body{
+    padding: 0;
+    height: 99vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(130deg, #1c4171, #4CAF50);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    padding: 15px;
+}
+
